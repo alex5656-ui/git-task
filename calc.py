@@ -1,4 +1,6 @@
-# Автор: ...
+# Автор: Алексей Ерофеев
+
+import math
 
 def add(a, b):
     return a + b
@@ -10,7 +12,10 @@ def subtract(a, b):
 
 def multiply(a, b):
     # TODO: не реализовано
-    return None
+    return a * b
+
+def kw_kor(a):
+    return math.sqrt(a)
 
 
 if __name__ == "__main__":
