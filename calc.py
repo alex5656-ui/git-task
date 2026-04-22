@@ -21,4 +21,5 @@ def kw_kor(a):
 if __name__ == "__main__":
     print("Простой калькулятор запущен.")
     print(f"2 + 2 = {add(2, 2)}")
+    print(f"2 * 2 = {multiply(5, 6)}")
     print(f"Корень из 9 = {kw_kor(9)}")
