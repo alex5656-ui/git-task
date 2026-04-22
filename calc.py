@@ -14,12 +14,12 @@ def multiply(a, b):
     # TODO: не реализовано
     return a * b
 
-def kw_kor(a):
-    return math.sqrt(a)
+def sqrt(x):
+    return math.sqrt(x)
 
 
 if __name__ == "__main__":
     print("Простой калькулятор запущен.")
     print(f"2 + 2 = {add(2, 2)}")
     print(f"2 * 2 = {multiply(5, 6)}")
-    print(f"Корень из 9 = {kw_kor(9)}")
+    print(f"Корень из 9 = {sqrt(9)}")
